@@ -10,19 +10,45 @@
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link rel="stylesheet" href="tampilan.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+<style>
+  .desc{
+    border:1px solid #fff;
+    border-radius:10px;
+    max-width:1000px;
+    height:400px;
+    background-color:#f24a4a;background:linear-gradient(-50deg,#ee5952,#ea3a7e,#20aadb,#23e0b3);background-size:320% 200%;animation:Gradient 15s ease infinit;display:block;;
+    margin:10px;
+   
+  }
+  .desc h2{
+    text-align:center;
+    color:#fff;
+  }
+  .desc h3{
+    margin:15px;
+    margin-left:15px;
+    color:#fff;
+  }
+  .desc p{
+    margin-left:15px;
+    space:justify;
+    color:#fff;
+  }
+
+</style>
 <body>
-    <div class="badan utama">
+  <div class="badan utama">
     <div class="navbar">
-  <a href="indexs.php">Home</a>
+  <a href="indexs.html">Home</a>
   <div class="dropdown">
     <button class="dropbtn">Profil Desa
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="sejarahdesa.php">Sejarah Desa</a>
-      <a href="Visimisi.php">Visi dan Misi</a>
+      <a href="sejarahdesa.html">Sejarah Desa</a>
+      <a href="Visimisi.html">Visi dan Misi</a>
       
     </div>
 </div>
@@ -32,8 +58,9 @@
     </button>
 
     <div class="dropdown-content">
-      <a href="pemerintahdesa.php">Pemerintah Desa</a>
-      <a href="bpd.php">BPD</a>
+      <a href="pemerintahdesa.html">Pemerintah Desa</a>
+      <a href="bpd.html">BPD</a>
+      
     </div>
 </div>
 <div class="dropdown">
@@ -42,8 +69,8 @@
     </button>
 
     <div class="dropdown-content">
-      <a href="galeri.php">Galeri</a>
-      <a href="pembangunan.php">Pembangunan</a>
+      <a href="galeri.html">Galeri</a>
+      <a href="pembangunan.html">Pembangunan</a>
     </div>
 </div>
 <div class="dropdown">
@@ -52,10 +79,10 @@
     </button>
 
 <div class="dropdown-content">
-      <a href="karangtaruna.php">Karang Taruna</a>
-      <a href="satgas.php">Satgas Linmas</a>
-      <a href="pkk.php">PKK Desa</a>
-      <a href="lpmd.php">LPMD</a>
+      <a href="karangtaruna.html">Karang Taruna</a>
+      <a href="satgas.html">Satgas Linmas</a>
+      <a href="pkk.html">PKK Desa</a>
+      <a href="lpmd.html">LPMD</a>
     </div>
 </div>
 
@@ -65,13 +92,14 @@
     </button>
 
     <div class="dropdown-content">
-      
-      <a href="geografis.php">Letak Geografis</a>
-      <a href="datapenduduk.php">Data Penduduk</a>
+      <a href="geografis.html">Letak Geografis</a>
+      <a href="datapenduduk.html">Data Penduduk</a>
     </div>
 </div>
-
-
+<form class="example" action="action_page.php">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
   </div>
 </div>
 </div>
@@ -82,7 +110,6 @@
         <p>Alamat : Jalan Pasar No 1. Kemiriombo, Kecamatan Kaliwiro</p><br>
         <p>kode-pos: 56364 | 083105183584</p>
         <a target = "blank" href = 'https://web.whatsapp.com/'><i class="fab fa-whatsapp"></i></a>
-        
         
    
 </div>
@@ -97,71 +124,29 @@
                 </marquee>
             </ul>
         </nav>
+      
+        <div class="desc">
+          <h2>Tugas Dan Kewajiban LPMD</h2>
+          <h3>Tugas</h3>
+          <p>1. menyusun rencana pembangunan secara partisipatif melalui musrenbang.</p>
+          <p>2. melaksanakan, mengendalikan, memanfaatkan, memelihara dan mengembangkan pembangunan secara partisipatif.</p>
+          <p>3. menggerakkan dan mengembangkan partisipasi, gotong royong dan swadaya masyarakat.</p>
+          <p>4. menumbuhkembangkan kondisi dinamis masyarakat dalam rangka pemberdayaan masyarakat.</p>
+         <h3>Kewajiban</h3>
+         <P>1. Memegang teguh dan mengamalkan Pancasila dan Undang-Undang Dasar 1945 serta mempertahankan dan memelihara Negara Kesatuan Republik Indonesia.</P>
+         <P>2. Menjalin hubungan kemitraan dengan berbagai pihak yang terkait;</P>
+         <P>3. Mentaati seluruh peraturan perundang-undangan.</P>
+         <P>4. Menjaga nilai-nilai sosial budaya, adat istiadat dan norma-norma yang hidup dan berkembang di masyarakat.</P>
+         <P>5. Membantu Pemerintah Desa dalam pelaksanaan kegiatan pemerintahan, pembangunan dan pembinaan masyarakat dalam rangka meningkatkan kesejahteraan masyarakat.</P>
+      </div>
 
-        <div class="responsive">
-  <div class="gallery">
-      <img src="kades.jpg" alt="Forest">
-      <div class="text box">
-        <h2>Sambutan Kepala Desa</h2>
-        <p>Assalamualaikum warahmatullahi wabarakatuh, Salam sejahtera bagi kita semua.
-
-Semoga dengan website ini, kami mampu memberikan informasi yang dibutuhkan oleh masyarakat maupun oleh pihak-pihak lain yang ingin mencari informasi tentang desa kami
-
-Desa Kami selalu berusaha sekuat tenaga agar
-
-Menciptakan Masyarakat yang Berakhlaqul Karimah.
-Meningkatkan Kwalitas Sumber Daya Manusia ( SDM ).
-Meningkatkan Kesehatan Masyarakat dan Kelestarian Lingkungan.
-Meningkatkan Potensi Ekonomi Masyarakat.
-Meningkatkan Partisipasi Masyarakat dalam Pembangunan Desa.
-Meningkatkan Peran Pemerintah Desa dan Pelayanan Terhadap Masyarakat</p><br>
-</div>
-  </div>
-</div>
+   
 
 
-        <div class="menu">
-			<ul>
-				<p>Berita Terkini</p>
-			</ul>
-</div>
-<div class="container">
-<div class="card">
-  <img src="berita1.jpg" alt="berita" style="width:100%">
-  <p>Hujan lebat yang mengguyur wilayah Wonosobo membuat sungai di Desa Kemiriombo, Kecamatan Kaliwiro,banjir <br><br><br></p>
-  <a href="berita.php" class="btn">SELENGKAPNYA</a>
-</div>
-<div class="card">
-  <img src="berita2.jpg" alt="berita" style="width:100%">
-  <p>Pada hari ini tanggal 3 September 2023, warga desa Kemiriombo, Kaliwiro Wonosobo, khususnya di RT 22/003, melakukan upacara pengibaran bendera. <br><br></p>
-  <a href="berita1.php" class="button">SELENGKAPNYA</a>
-</div>
-<div class="card">
-  <img src="berita3.jpg" alt="berita" style="width:100%">
-  <p>Andi Kristiawan Gelar Turnamen Voli di Dapil 6 Wonosobo, Bertempat di lapangan Kemiriombo, Kecamatan Kaliwiro, Komandan Tempur Elektoral Bintang Dua Dapil 6 Wonosobo, Andi Kristiawan bersama pemuda Desa Kemiriombo<br><br></p>
-  <a href="berita2.php" class="button">SELENGKAPNYA</a>
-</div>
-<div class="card">
-  <img src="berita4.jpg" alt="berita" style="width:100%">
-  <p>Program P3KE, Camat Kaliwiro dan Kades Kemiriombo Laksanakan Verifikasi Validasi Data,Program Kementrian Kordinator PMK<br></p>
-  <a href="berita3.php" class="button">SELENGKAPNYA</a>
-</div>
-</div>
+   </div>
 
-<nav class="card">
-    <h1>Data Penduduk</h1>
-    <h2>Laki-Laki</h2>
-    <h5>1.791</h5>
-    <h2 >Perempuan</h2>
-    <h5 >1.752</h5>
-    <h2 >Jumlah Penduduk</h2>
-    <h5 >3.543 </h5><br>
-</nav>
-<div class="maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63296.9600511797!2d109.77889822282545!3d-7.458614458468684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7aa37dc15d44d9%3A0xbf852b357c07182a!2sKantor%20Pemerintahan%20Desa%20Kemiriombo!5e0!3m2!1sid!2sid!4v1703678653983!5m2!1sid!2sid" width="250" height="250"   style="border:3px solid gainsboro;margin-left:1070px; margin-bottom:30px;border-radius:10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-
-<div class="social">
+      
+    <div class="row social" align="center">
    <a target = "blank" href = 'https://www.youtube.com/@desakemiriombo9694/videos'><i class="fab fa-youtube"></i></a>
    <a target = "blank" href='https://twitter.com/codingCommander' ><i class="fab fa-twitter"></i></a>
    <a target = "blank" href='https://web.facebook.com/groups/798486420313108/?_rdc=1&_rdr'><i class='fab fa-facebook'></i></a>
@@ -170,7 +155,7 @@ Meningkatkan Peran Pemerintah Desa dan Pelayanan Terhadap Masyarakat</p><br>
    
  </div>
 
- <footer class="footer">
+      <footer class="footer">
         <div class="row">
           <div class="footer-col">
             <h4>Desa Kami mengatakan tidak untuk</h4>

@@ -10,34 +10,54 @@
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link rel="stylesheet" href="tampilan.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <style>
-div.scroll-container {
-  background-color: #f24a4a;background:linear-gradient(-50deg,#ee5952,#ea3a7e,#20aadb,#23e0b3);background-size:320% 200%;animation:Gradient 15s ease infinit;display:block;
-  overflow: auto;
-  white-space: nowrap;
-  padding: 5px;
-  
-}
-div.scroll-container img {
-  border:1px solid #fff;
-  border-radius:10px;
-  height:250px;
+  .desc{
+    border:1px solid #fff;
+    border-radius:10px;
+    max-width:1400px;
+    height:570px;
+    background-color:#f24a4a;background:linear-gradient(-50deg,#ee5952,#ea3a7e,#20aadb,#23e0b3);background-size:320% 200%;animation:Gradient 15s ease infinit;display:block;
+    margin:20px;
+    text-align:left;
+    padding:10px;
+    margin-top:5px
+  }
+  .desc h2{
+    text-align:center;
+    color:#fff;
+    padding:5px;
+  }
+  .desc h3{
+    margin:15px;
+    margin-left:15px;
+    color:#fff;
+    padding:10px;
+  }
+  .desc p{
+    margin-left:420px;
+    color:#fff;
+  }
+  .desc img{
+    border:1px solid #fff;
+    border-radius:10px;
+    margin-right:10px;
+    
+  }
 
-}
 </style>
 <body>
-    <div class="badan utama">
+  <div class="badan utama">
     <div class="navbar">
-  <a href="indexs.php">Home</a>
+  <a href="indexs.html">Home</a>
   <div class="dropdown">
     <button class="dropbtn">Profil Desa
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="sejarahdesa.php">Sejarah Desa</a>
-      <a href="Visimisi.php">Visi dan Misi</a>
+      <a href="sejarahdesa.html">Sejarah Desa</a>
+      <a href="Visimisi.html">Visi dan Misi</a>
       
     </div>
 </div>
@@ -47,8 +67,9 @@ div.scroll-container img {
     </button>
 
     <div class="dropdown-content">
-      <a href="pemerintahdesa.php">Pemerintah Desa</a>
-      <a href="bpd.php">BPD</a>
+      <a href="pemerintahdesa.html">Pemerintah Desa</a>
+      <a href="bpd.html">BPD</a>
+      
     </div>
 </div>
 <div class="dropdown">
@@ -57,8 +78,8 @@ div.scroll-container img {
     </button>
 
     <div class="dropdown-content">
-      <a href="galeri.php">Galeri</a>
-      <a href="pembangunan.php">Pembangunan</a>
+      <a href="galeri.html">Galeri</a>
+      <a href="pembangunan.html">Pembangunan</a>
     </div>
 </div>
 <div class="dropdown">
@@ -67,10 +88,10 @@ div.scroll-container img {
     </button>
 
 <div class="dropdown-content">
-      <a href="karangtaruna.php">Karang Taruna</a>
-      <a href="satgas.php">Satgas Linmas</a>
-      <a href="pkk.php">PKK Desa</a>
-      <a href="lpmd.php">LPMD</a>
+      <a href="karangtaruna.html">Karang Taruna</a>
+      <a href="satgas.html">Satgas Linmas</a>
+      <a href="pkk.html">PKK Desa</a>
+      <a href="lpmd.html">LPMD</a>
     </div>
 </div>
 
@@ -80,9 +101,8 @@ div.scroll-container img {
     </button>
 
     <div class="dropdown-content">
-      
-      <a href="geografis.php">Letak Geografis</a>
-      <a href="datapenduduk.php">Data Penduduk</a>
+      <a href="geografis.html">Letak Geografis</a>
+      <a href="datapenduduk.html">Data Penduduk</a>
     </div>
 </div>
 <form class="example" action="action_page.php">
@@ -116,25 +136,20 @@ div.scroll-container img {
 
         <div class="menu">
 			<ul>
-				<p>Galery Kegiatan Karang Taruna Desa Kemiriombo</p>
+				<p>Pengurus Pemberdayaan Dan Kesejahteraan Keluarga (Pkk) Desa Kemiriombo </p>
 			</ul>
 </div>
 
-<div class="scroll-container">
-  <img src="gambar.jpg" alt="Cinque Terre">
-  <img src="gambar1.jpg" alt="Forest">
-  <img src="gambar2.jpg" alt="Northern Lights">
-  <img src="taruna1.jpg" alt="Mountains">
-  <img src="taruna2.jpg" alt="Mountains">
-  <img src="taruna3.jpg" alt="Mountains">
-  <img src="taruna4.jpg" alt="Mountains">
-  <img src="taruna5.jpg" alt="Mountains">
-  <img src="taruna6.jpg" alt="Mountains">
-  <img src="taruna7.jpg" alt="Mountains">
-  
+    <div class="desc">
+          <div class="img">
+            <img src="struktur1.jpg" width="1285" height="550" alt="">
+                  
 </div>
+    
+    </div>
 
-<div class="row social" align="center">
+      
+    <div class="row social" align="center">
    <a target = "blank" href = 'https://www.youtube.com/@desakemiriombo9694/videos'><i class="fab fa-youtube"></i></a>
    <a target = "blank" href='https://twitter.com/codingCommander' ><i class="fab fa-twitter"></i></a>
    <a target = "blank" href='https://web.facebook.com/groups/798486420313108/?_rdc=1&_rdr'><i class='fab fa-facebook'></i></a>
